@@ -2298,6 +2298,12 @@ textarea.input-text__field {
         padding-left: 80px;
         padding-right: 24px;
     }
+
+    .roadmap__item:first-child {
+        height: 500px;
+        padding-top: 20px;
+    }
+
     .roadmap__item-bg {
         transform: scale(-1);
     }
@@ -2414,6 +2420,11 @@ textarea.input-text__field {
     .team__item:nth-child(4n) {
         margin-right: 0;
     }
+
+    .roadmap__item:first-child {
+        height: 498px;
+    }
+
 }
 @media (max-width: 1023px) {
     .container {
@@ -2579,6 +2590,11 @@ textarea.input-text__field {
         max-width: 484px;
         height: 316px;
     }
+
+    .roadmap__item:first-child {
+        height: 458px;
+    }
+
     .roadmap__item,
     .roadmap__item:nth-child(2n) {
         padding-left: 70px;
@@ -2995,6 +3011,9 @@ textarea.input-text__field {
     }
 }
 @media screen and (max-width: 767px) {
+    .roadmap__item:first-child {
+        height: 345px;
+    }
     .jq-selectbox__select,
     select {
         font-size: 16px;
