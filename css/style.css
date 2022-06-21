@@ -606,8 +606,8 @@ textarea.input-text__field {
     max-width: 55rem;
 }
 .section__descr_dark:before {
-    height: 12rem;
-    width: 60rem;
+    height: 40rem;
+    width: 81rem;
     background: url(../img/style/descr_bg_dark.svg) no-repeat 50% / contain;
 }
 .about {
@@ -1628,7 +1628,7 @@ textarea.input-text__field {
 }
 .partners__item_2 {
     -ms-flex-preferred-size: 7.1rem;
-    flex-basis: 7.1rem;
+    flex-basis: 26.1rem;
 }
 .partners__item_3 {
     -ms-flex-preferred-size: 15.5rem;
@@ -1638,13 +1638,13 @@ textarea.input-text__field {
 .partners__item_4 {
     -ms-flex-preferred-size: 14.5rem;
     flex-basis: 14.5rem;
-    margin-top: 7rem;
+    margin-top: 4rem;
 }
 .partners__item_5 {
     -ms-flex-preferred-size: 13.4rem;
     flex-basis: 13.4rem;
     margin-right: 0;
-    margin-top: 7rem;
+    margin-top: 4rem;
 }
 .play-btn {
     width: 100%;
@@ -2931,7 +2931,7 @@ textarea.input-text__field {
         width: 122px;
     }
     .partners__item_2 img {
-        width: 62px;
+        width: 170px;
     }
     .partners__item_3 img {
         width: 125px;
