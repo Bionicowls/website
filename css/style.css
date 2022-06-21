@@ -1964,7 +1964,7 @@ textarea.input-text__field {
         transform: translateY(19.5rem);
     }
     to {
-        transform: translate(-13rem, 19.5rem);
+        transform: translate(-13rem, 33.5rem);
     }
 }
 @keyframes f {
