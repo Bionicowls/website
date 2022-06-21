@@ -18,12 +18,32 @@
     </head>
     
     <body class="body">
-        <style>
-            @import url('https://fonts.cdnfonts.com/css/chopsic');
-            .main__title h1 {
-                font-family: Chopsic,sans-serif;
+    <style>
+        @import url('https://fonts.cdnfonts.com/css/chopsic');
+        .main__title h1 {
+            font-family: Chopsic,sans-serif;
+        }
+        .about__video-mask video {
+            display: block;
+            font-size: 0;
+        }
+        .about__video-mask {
+            -webkit-mask: url(./img/style/main_mask.svg) no-repeat center top/contain;
+            mask: url(./img/style/main_mask.svg) no-repeat center top/contain;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        @media (max-width: 1439px) {
+            .about__video-mask video {
+                width: 112%;
+                height: 100%;
             }
-        </style>
+            .about-section {
+                z-index: 5;
+            }
+        }
+    </style>
         <div class="wrapper">
             <!-- <div class="preloader">
                 <div class="preloader__wrap">
@@ -605,12 +625,12 @@
             <div class="container">
                 <div class="staking">
                     <div class="staking__bg">
-                        <img src="img/style/staking_bg.svg" alt="">
+                        <img src="./img/style/staking_bg.svg" alt="">
                     </div>
                     <div class="staking__wrap" data-aos="fade-up" data-aos-anchor-placement="bottom-bottom">
                         <div class="staking__info">
                             <div class="staking__title">
-                                 <h2 class="title-2" data-text="staking" data-title="staking"><span>staking</span></h2>
+                                <h2 class="title-2" data-text="staking" data-title="staking"><span>staking</span></h2>
                             </div>
                             <div class="staking__descr section__descr">Nations launched their fleets towards the stars, hoping to find resource
                                 rich planets to plant their flag on and claim as their own</div>
@@ -620,7 +640,7 @@
                         <div class="staking__model">
                             <div class="staking__model-circle">
                                 <div class="staking__model-animation">
-                                    <img src="img/style/main_circle.png" alt="">
+                                    <img src="./img/style/main_circle.png" alt="">
                                 </div>
                             </div>
                             <div class="staking__model-item"></div>
@@ -633,34 +653,36 @@
             <div class="container">
                 <div class="about">
                     <div class="about__bg">
-                        <img src="img/style/about_bg.png" alt="">
+                        <img src="./img/style/about_bg.png" alt="">
                     </div>
                     <div class="about__wrap">
                         <div class="about__video">
                             <div class="about__video-wrap">
                                 <div class="about__video-border">
-                                    <img src="img/style/main_frame.svg" alt="">
+                                    <img src="./img/style/main_frame.svg" alt="">
                                 </div>
                                 <div class="about__video-mask">
-                                    <!-- <img src="img/style/main_mask.svg" alt=""> -->
-                                    <img src="img/style/about_poster.jpg" alt="">
+                                    <video id="video" poster="./img/style/about_poster.jpg">
+                                        <source src="./video/video4.mp4" type="video/mp4">
+                                    </video>
+                                    <!-- <img src="./img/style/about_poster.jpg" alt=""> -->
                                 </div>
                             </div>
                             <div class="about__video-btn">
-                                <div class="play-btn">
+                                <div class="play-btn js-play-btn">
                                     <div class="play-btn__wrap">
                                         <div class="play-btn__outer">
                                             <div class="play-btn__outer-circle">
-                                                <img src="img/style/icons/play_btn_outer.svg" alt="">
+                                                <img src="./img/style/icons/play_btn_outer.svg" alt="">
                                             </div>
                                         </div>
                                         <div class="play-btn__inner">
                                             <div class="play-btn__inner-circle">
-                                                <img src="img/style/icons/play_btn_inner.svg" alt="">
+                                                <img src="./img/style/icons/play_btn_inner.svg" alt="">
                                             </div>
                                         </div>
                                         <div class="play-btn__center">
-                                            <img src="img/style/icons/play_btn_center.svg" alt="">
+                                            <img src="./img/style/icons/play_btn_center.svg" alt="">
                                         </div>
                                     </div>
                                 </div>
@@ -668,7 +690,7 @@
                         </div>
                         <div class="about__info" data-aos="fade-up" data-aos-anchor-placement="bottom-bottom">
                             <div class="about__title">
-                                 <h2 class="title-2" data-text="Game Description"><span>Game Description</span></h2>
+                                <h2 class="title-2" data-text="Game Description"><span>Game Description</span></h2>
                             </div>
                             <div class="about__descr">Dubbed the “Night Planet,” this planet was a cold ,inhospitable planet
                                 constantly cloaked in darkness. However, what these robot crews found next
@@ -679,7 +701,7 @@
                                 <div class="about__item">
                                     <div class="about__item-wrap">
                                         <div class="about__icon">
-                                            <img src="img/style/icons/icon_about1.svg" alt="">
+                                            <img src="./img/style/icons/icon_about1.svg" alt="">
                                         </div>
                                         <div class="about__label">Good quality</div>
                                     </div>
@@ -687,7 +709,7 @@
                                 <div class="about__item">
                                     <div class="about__item-wrap">
                                         <div class="about__icon">
-                                            <img src="img/style/icons/icon_about2.svg" alt="">
+                                            <img src="./img/style/icons/icon_about2.svg" alt="">
                                         </div>
                                         <div class="about__label">Good quality</div>
                                     </div>
@@ -695,7 +717,7 @@
                                 <div class="about__item">
                                     <div class="about__item-wrap">
                                         <div class="about__icon">
-                                            <img src="img/style/icons/icon_about3.svg" alt="">
+                                            <img src="./img/style/icons/icon_about3.svg" alt="">
                                         </div>
                                         <div class="about__label">Good quality</div>
                                     </div>
@@ -711,7 +733,7 @@
                 <div class="governance">
                     <div class="governance__video">
                         <div class="governance__video-poster">
-                            <!-- <img src="img/content/covernance_image.png" alt=""> -->
+                            <!-- <img src="./img/content/covernance_image.png" alt=""> -->
                         </div>
                         <div class="governance__video-item">
                             <video muted playsinline loop autoplay>
@@ -721,7 +743,7 @@
                     </div>
                     <div class="governance__wrap" data-aos="fade-up" data-aos-anchor-placement="bottom-bottom">
                         <div class="governance__info">
-                             <h2 class="title-2" data-text="Governance" data-title="Governance"><span>Governance</span></h2>
+                            <h2 class="title-2" data-text="Governance" data-title="Governance"><span>Governance</span></h2>
                             <div class="section__descr section__descr_bg section__descr_dark">The fragile ecosystem of the Night Planet could not maintain this new
                                 influx of treacherous inhabitants. As resources and land became scarce
                                 the Noble Bionic Owls were reduced</div>
@@ -759,21 +781,30 @@
                                     <div class="roadmap__item-wrap">
                                         <div class="roadmap__title">Q3 2022</div>
                                         <div class="roadmap__descr">
-                                            Conceptualization
-                                            Concept & Research
-                                            Starting writing GDD + Art
+                                            <h2>Conceptualization
+                                                Concept & Research</h2>
+                                            <ul>
+                                                <li>Starting writing GDD + Art</li>
+                                            </ul>
 
-                                            Development
-                                            Smart Contract Development
+                                            <h2>Development</h2>
+                                            <ul>
+                                                <li>Smart Contract Development</li>
+                                            </ul>
 
-                                            Business
-                                            Website Launch
-                                            Whitepaper Release
-                                            Strategic Partnerships
+                                            <h2>Business</h2>
+                                            <ul>
+                                                <li>Website Launch</li>
+                                                <li>Whitepaper Release</li>
+                                                <li>Strategic Partnerships</li>
+                                            </ul>
 
-                                            Community
-                                            Social Media Launch
-                                            Gameplay Trailer
+                                            <h2>Community</h2>
+                                            <ul>
+                                                <li>Social Media Launch</li>
+                                                <li>Gameplay Trailer</li>
+                                            </ul>
+
                                         </div>
                                     </div>
                                     <div class="roadmap__item-road">
@@ -1007,7 +1038,7 @@
                                 </div>
                                 <a href="#">
                                     <div class="team__info">
-                                        <div class="team__name">Emilio</div>
+                                        <div class="team__name">Emilio Padulo</div>
                                         <div class="team__post">GDD developer</div>
                                     </div>
                                 </a>

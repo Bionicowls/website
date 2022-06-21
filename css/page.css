@@ -1,3 +1,6 @@
 .team__item {
     margin-bottom: 50px;
 }
+.roadmap__descr li {
+    font-size: 16px;
+}
