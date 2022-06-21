@@ -1856,7 +1856,7 @@ textarea.input-text__field {
 .roadmap__item {
     max-width: 53.4rem;
     position: relative;
-    height: 34.6rem;
+    height: 38.6rem;
     padding-top: 7rem;
     padding-left: 3.8rem;
     padding-right: 6.6rem;
@@ -2623,7 +2623,7 @@ textarea.input-text__field {
     }
 
     .roadmap__item:nth-child(2n) {
-        height: 320px;
+        height: 336px;
     }
 
     .roadmap__item:nth-child(3n) {
@@ -3056,7 +3056,7 @@ textarea.input-text__field {
     }
 
     .roadmap__item:nth-child(2n) {
-        height: 220px;
+        height: 231px;
     }
 
     .roadmap__item:nth-child(3n) {
