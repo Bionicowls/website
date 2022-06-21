@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 26.3.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 550 512" style="enable-background:new 0 0 550 512;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:url(#SVGID_1_);}
+	.st1{fill:none;stroke:url(#SVGID_00000137127654895393535960000004064689500957462186_);stroke-width:3;}
+	.st2{fill:url(#SVGID_00000109000867051129247490000001603837889257704838_);fill-opacity:0.14;}
+	.st3{fill:#B32318;}
+	.st4{fill:#271A19;}
+	.st5{fill:#B52316;}
+	.st6{fill:none;stroke:#B32318;stroke-width:3;}
+</style>
+<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="459.127" y1="-124.4218" x2="522.127" y2="-124.4218" gradientTransform="matrix(1 0 0 -1 0 364)">
+	<stop  offset="0" style="stop-color:#B82418"/>
+	<stop  offset="1" style="stop-color:#B82418"/>
+</linearGradient>
+<path class="st0" d="M459.1,502.6h56.5l0.2-37.7l6.3,9.4V512h-56.7L459.1,502.6z"/>
+<g>
+	
+		<linearGradient id="SVGID_00000177452321993618182720000009137145559876352176_" gradientUnits="userSpaceOnUse" x1="519.3929" y1="92.609" x2="47.3992" y2="121.3131" gradientTransform="matrix(1 0 0 -1 0 364)">
+		<stop  offset="0" style="stop-color:#B82418"/>
+		<stop  offset="1" style="stop-color:#B82418;stop-opacity:0"/>
+	</linearGradient>
+	
+		<path shape-rendering="crispEdges" style="fill:none;stroke:url(#SVGID_00000177452321993618182720000009137145559876352176_);stroke-width:3;" d="
+		M514.5,501.6l-446.1-8.4l-51.9-60.3V202.3v-93V28.7V18h433.1l32.5,37l32.4,36.8v197.3v198.4V501.6z"/>
+</g>
+<linearGradient id="SVGID_00000104689856501083351390000007858494256000187532_" gradientUnits="userSpaceOnUse" x1="111.325" y1="104.9534" x2="508" y2="104.9534" gradientTransform="matrix(1 0 0 -1 0 364)">
+	<stop  offset="0" style="stop-color:#1F1E1C;stop-opacity:0"/>
+	<stop  offset="1" style="stop-color:#B9B9B9"/>
+</linearGradient>
+<path style="fill:url(#SVGID_00000104689856501083351390000007858494256000187532_);fill-opacity:0.14;" d="M78.7,484L28,425.3
+	V204.2v-88.8V38.4V26.1h416.9l31.6,35.8L508,97.6V287v189.4V492L78.7,484z"/>
+<rect x="513.3" y="177.7" class="st3" width="26" height="4.4"/>
+<rect x="512.2" y="182.3" class="st4" width="4" height="38.3"/>
+<path class="st5" d="M271.9,1c0,2.2-1.2,4-2.7,4v4h2.7h2.7h2.7V5c-1.5,0-2.7-1.8-2.7-4H271.9z"/>
+<path class="st5" d="M282.7,1c0,2.2-1.2,4-2.7,4v4h2.7h2.7h2.7V5c-1.5,0-2.7-1.8-2.7-4H282.7z"/>
+<path class="st5" d="M293.5,1c0,2.2-1.2,4-2.7,4v4h2.7h2.7h2.7V5c-1.5,0-2.7-1.8-2.7-4H293.5z"/>
+<path class="st5" d="M239.5,1c0,2.2-1.2,4-2.7,4v4h2.7h2.7h2.7V5c-1.5,0-2.7-1.8-2.7-4H239.5z"/>
+<path class="st5" d="M250.3,1c0,2.2-1.2,4-2.7,4v4h2.7h2.7h2.7V5c-1.5,0-2.7-1.8-2.7-4H250.3z"/>
+<path class="st5" d="M261.1,1c0,2.2-1.2,4-2.7,4v4h2.7h2.7h2.7V5c-1.5,0-2.7-1.8-2.7-4H261.1z"/>
+<ellipse class="st6" cx="543.3" cy="180.7" rx="5" ry="7.4"/>
+</svg>

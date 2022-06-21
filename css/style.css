@@ -1908,6 +1908,9 @@ textarea.input-text__field {
     top: 13rem;
     bottom: auto;
 }
+.roadmap__item:last-child {
+    height: 504px;
+}
 .roadmap__title {
     font-family: Chakra Petch, sans-serif;
     text-transform: uppercase;
@@ -2304,6 +2307,18 @@ textarea.input-text__field {
         padding-top: 20px;
     }
 
+    .roadmap__item:nth-child(2n) {
+        height: 458px;
+    }
+
+    .roadmap__item:nth-child(3n) {
+        height: 458px;
+    }
+
+    .roadmap__item:last-child {
+        height: 458px;
+    }
+
     .roadmap__item-bg {
         transform: scale(-1);
     }
@@ -2423,6 +2438,18 @@ textarea.input-text__field {
 
     .roadmap__item:first-child {
         height: 498px;
+    }
+
+    .roadmap__item:nth-child(2n) {
+        height: 355px;
+    }
+
+    .roadmap__item:nth-child(3n) {
+        height: 703px;
+    }
+
+    .roadmap__item:last-child {
+        height: 503px;
     }
 
 }
@@ -2593,6 +2620,18 @@ textarea.input-text__field {
 
     .roadmap__item:first-child {
         height: 458px;
+    }
+
+    .roadmap__item:nth-child(2n) {
+        height: 320px;
+    }
+
+    .roadmap__item:nth-child(3n) {
+        height: 640px;
+    }
+
+    .roadmap__item:last-child {
+        height: 445px;
     }
 
     .roadmap__item,
@@ -2911,9 +2950,10 @@ textarea.input-text__field {
     }
     .roadmap__road {
         left: -25px;
+        height: 100%;
     }
     .roadmap__road-item {
-        height: 892px;
+        /* height: 892px; */
     }
     .roadmap__item {
         padding-top: 25px;
@@ -3014,6 +3054,20 @@ textarea.input-text__field {
     .roadmap__item:first-child {
         height: 345px;
     }
+
+    .roadmap__item:nth-child(2n) {
+        height: 220px;
+    }
+
+    .roadmap__item:nth-child(3n) {
+        height: 450px;
+        padding-top: 32px;
+    }
+
+    .roadmap__item:last-child {
+        height: 316px;
+    }
+
     .jq-selectbox__select,
     select {
         font-size: 16px;
