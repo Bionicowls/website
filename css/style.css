@@ -13,7 +13,7 @@ html {
 body {
     font-size: 16px;
     margin: 0;
-    background: #191919;
+    background: #111111;
     color: #fff;
     font-weight: 400;
     font-family: PT Mono, sans-serif;
@@ -781,7 +781,7 @@ textarea.input-text__field {
     z-index: -1;
     width: 144rem;
     height: 97.3rem;
-    top: 15rem;
+    top: 0rem;
     left: 50%;
     transform: translateX(-50%);
 }
@@ -879,7 +879,7 @@ textarea.input-text__field {
     transition: border-color 0.2s;
 }
 .feedback {
-    padding-top: 8rem;
+    padding-top: 9rem;
     padding-bottom: 11rem;
 }
 .feedback__wrap {
@@ -972,9 +972,9 @@ textarea.input-text__field {
     -ms-flex-negative: 1;
     flex-shrink: 1;
     margin-bottom: 1.4rem;
-    -ms-flex-preferred-size: calc(100% / 3 - 2.8rem / 3);
-    flex-basis: calc(100% / 3 - 2.8rem / 3);
-    max-width: calc(100% / 3 - 2.8rem / 3);
+    -ms-flex-preferred-size: calc(100% / 2 - 2.8rem / 2);
+    flex-basis: calc(100% / 2 - 2.8rem / 2);
+    max-width: calc(100% / 2 - 2.8rem / 2);
 }
 .feedback__input_3,
 .feedback__input_3:nth-child(4n) {
@@ -1810,7 +1810,7 @@ textarea.input-text__field {
 .roadmap__bg {
     position: absolute;
     z-index: 1;
-    top: 2rem;
+    top: 14rem;
     left: 50%;
     transform: translateX(-50%);
     width: 144rem;
