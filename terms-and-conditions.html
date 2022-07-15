@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html>
+
+<head lang="en">
+    <meta charset="utf-8">
+    <title>Bionic Owls - Metaverse Game</title>
+    <meta name="description" content="At the start of the 22nd century AI technology had progressed so much so that humankind was finally able to fulfil their dream of space exploration beyond the boundaries of our galaxy through robot manned flights.">
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="module/normalize/normalize.css">
+    <link rel="stylesheet" href="module/owl-carousel/owl.carousel.min.css">
+    <link rel="stylesheet" href="module/formstyler/jquery.formstyler.css">
+    <link rel="stylesheet" href="module/formstyler/jquery.formstyler.theme.css">
+    <link rel="stylesheet" href="module/aos/aos.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/page.css">
+    <link rel="shortcut icon" href="favicon/favicon.ico">
+    <link href="https://fonts.cdnfonts.com/css/chopsic" rel="stylesheet">
+</head>
+
+<body class="body">
+<style>
+    @import url('https://fonts.cdnfonts.com/css/chopsic');
+    .main__title h1 {
+        font-family: Chopsic,sans-serif;
+    }
+    .about__video-mask video {
+        display: block;
+        font-size: 0;
+    }
+    .about__video-mask {
+        -webkit-mask: url(./img/style/main_mask.svg) no-repeat center top/contain;
+        mask: url(./img/style/main_mask.svg) no-repeat center top/contain;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    @media (max-width: 1439px) {
+        .about__video-mask video {
+            width: 112%;
+            height: 100%;
+        }
+        .about-section {
+            z-index: 5;
+        }
+    }
+
+    .join__descr {
+        max-width: 100rem;
+    }
+
+    .join__descr a:link, .join__descr a:visited {
+        color: #dd0f0f !important;
+    }
+
+    /*.nested ol { counter-reset: item }
+    .nested li{ display: block }
+    .nested li:before { content: counters(item, ".") " "; counter-increment: item }
+    .nested {
+        margin-left: 40px;
+    }*/
+    .nested {
+        margin-left: 40px;
+    }
+
+</style>
+<div class="wrapper">
+    <!-- <div class="preloader">
+        <div class="preloader__wrap">
+            <div class="preloader__circle">
+                <img src="img/style/main_circle.png" alt="">
+            </div>
+            <div class="preloader__logo"> <a href="#" class="logo">
+
+                logo
+
+                <img src="img/style/logo.png" alt="">
+
+            </a>
+            </div>
+            <div class="preloader__title">Loading</div> <span class="preloader__line preloader__line_1"></span>
+            <span
+            class="preloader__line preloader__line_2"></span> <span class="preloader__line preloader__line_3"></span>
+<span class="preloader__line preloader__line_4"></span>
+                <span
+                class="preloader__line preloader__line_5"></span> <span class="preloader__line preloader__line_6"></span>
+<span class="preloader__line preloader__line_7"></span>
+                    <span
+                    class="preloader__line preloader__line_8"></span> <span class="preloader__line preloader__line_9"></span>
+        </div>
+    </div> -->
+    <div class="top">
+        <div class="container">
+            <div class="top__wrap">
+                <div class="top__btn">
+                    <div class="menu-btn js-menu-btn">
+                        <div class="menu-btn__wrap"> <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="top__light">
+                    <div class="top__light-btn">
+                        <img src="img/style/icons/icon_flash_mobile.svg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="menu js-menu">
+            <div class="menu__wrap">
+                <div class="menu__inner">
+                    <div class="menu__nav"> <a href="#" class="menu__link js-anchor" data-target="#main"><span>Main</span></a>
+                        <a
+                                href="#" class="menu__link js-anchor" data-target="#join"><span>Join</span>
+                        </a> <a href="#" class="menu__link js-anchor" data-target="#market"><span>Marketplace</span></a>
+                        <a
+                                href="#" class="menu__link js-anchor" data-target="#roadmap"><span>Roadmap</span>
+                        </a> <a href="#" class="menu__link js-anchor" data-target="#team"><span>Team</span></a>
+                        <a
+                                href="#" class="menu__link js-anchor" data-target="#partners"><span>Partners</span>
+                        </a> <a href="#" class="menu__link js-anchor" data-target="#blog"><span>News</span></a>
+                        <a
+                                href="#" class="menu__link js-anchor" data-target="#feedback"><span>Contact Us</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="socials">
+        <div class="socials__wrap">
+            <a href="https://discord.gg/6XBHWbtmhG" target="_blank" class="socials__link">
+
+                link
+
+                <svg>
+
+                    <use xlink:href="./svg/sprite.svg#icon_soc1"/>
+
+                </svg>
+
+            </a>
+            <a href="https://medium.com/@bionicowlsgaming" target="_blank" class="socials__link">
+
+                link
+
+                <svg>
+
+                    <use xlink:href="./svg/sprite.svg#icon_soc2"/>
+
+                </svg>
+
+            </a>
+            <a href="https://twitter.com/BionicOwls" target="_blank" class="socials__link">
+
+                link
+
+                <svg>
+
+                    <use xlink:href="./svg/sprite.svg#icon_soc3"/>
+
+                </svg>
+
+            </a>
+            <a href="https://t.me/bionicowlsgaming" target="_blank" class="socials__link">
+
+                link
+
+                <svg>
+
+                    <use xlink:href="./svg/sprite.svg#icon_soc4"/>
+
+                </svg>
+
+            </a>
+            <a href="https://www.youtube.com/channel/UCaw75MwB8BB6eqk04mNdCTA" target="_blank" class="socials__link">
+
+                link
+
+                <svg>
+
+                    <use xlink:href="./svg/sprite.svg#icon_soc5"/>
+
+                </svg>
+
+            </a>
+            <a href="https://www.instagram.com/bionicowls_" target="_blank"  class="socials__link">
+
+                link
+
+                <svg>
+
+                    <use xlink:href="./svg/sprite.svg#icon_soc6"/>
+
+                </svg>
+
+            </a>
+            <a href="https://www.reddit.com/u/Bionicowls_?utm_medium=android_app&utm_source=share" target="_blank" class="socials__link">
+
+                link
+
+                <svg>
+
+                    <use xlink:href="./svg/sprite.svg#icon_soc7"/>
+
+                </svg>
+
+            </a>
+        </div>
+    </div>
+
+    <section class="section" id="join">
+        <div class="container">
+            <div class="join">
+                <a href="/"><img src="img/style/logo.png" alt=""></a>
+                <h2 class="join__title" style="margin-top: 40px; margin-bottom: 50px;"><span>Terms and Conditions</span></h2>
+
+                <div style="text-align: left;">
+                    <div class="join__descr">
+                        <h2>Last Revised on June 13 2022</h2>
+                        <p>
+                            Welcome to the Terms of Service (these “<strong>Terms</strong>”) for the website <a
+                                href="/">https://www.bionicowls.io</a> (the
+                            “website”), the Bionic Owls game (the “<strong>Game</strong>”), and all other applications, content, smart contracts, tools,
+                            features, and functionality offered on or through our website and the Game (collectively with the Website
+                            and the Game, the “<strong>Services</strong>”), in each case operated by or on behalf of ACCE Group LLC (the
+                            “<strong>Company</strong>,” “<strong>we</strong>,” or “<strong>us</strong>”).
+                        </p>
+                        <p>
+                            These Terms govern your access to and use of the Services. Please read these Terms carefully, as they
+                            include important information about your legal rights. By accessing and/or using the Services, you are
+                            agreeing to these Terms. If you do not understand or agree to these Terms, please do not use the Services.
+                        </p>
+                        <p>
+                            For purposes of these Terms, “<strong>you</strong>” and “<strong>your</strong>” means you as the user of the Services. If you use the
+                            Services on behalf of a company or other entity then “you” includes you and that entity, and you represent
+                            and warrant that (a) you are an authorized representative of the entity with the authority to bind the entity
+                            to these Terms, and (b) you agree to these Terms on the entity’s behalf.
+                        </p>
+                        <p>
+                            Section 9 contains an arbitration clause and class action waiver. By agreeing to these Terms, you agree (a) to
+                            resolve all disputes with us related to the Services through binding individual arbitration (unless expressly
+                            provided otherwise in Section 9), which means that you waive any right to have those disputes decided by a judge
+                            or jury, and (b) to waive your right to participate in class actions, class arbitrations, or representative actions in
+                            connection with your use of the Services. You have the right to opt-out of arbitration as explained in Section 9.
+                        </p>
+                        <h2>TABLE OF CONTENTS</h2>
+                        <ol style="margin: 30px 0;">
+                            <li>SERVICES; WALLETS; ACCOUNTS</li>
+                            <li>LOCATION OF OUR PRIVACY POLICY AND OTHER TERMS</li>
+                            <li>ELIGIBILITY; RIGHTS WE GRANT YOU; USAGE LIMITATIONS</li>
+                            <li>OWNERSHIP AND CONTENT</li>
+                            <li>THIRD-PARTY SERVICES AND MATERIALS</li>
+                            <li>UPDATES AND PATCHES</li>
+                            <li>TERMINATION</li>
+                            <li>DISCLAIMERS; LIMITATIONS OF LIABILITY; INDEMNIFICATION</li>
+                            <li>GOVERNING LAW; ARBITRATION; CLASS ACTION WAIVER</li>
+                            <li>ADDITIONAL PROVISIONS</li>
+                        </ol>
+
+                        <h2>1. SERVICES; WALLETS; ACCOUNTS</h2>
+                        <p class="nested">
+                            1.1 <strong>Description of the Services.</strong> The Services offer a unique metaverse gaming experience via the Game
+                            and other related experiences through the combination of traditional core game and blockchain
+                            mechanics via the Ethereum blockchain (the “<strong>Bionic Owls Metaverse</strong>”). The Bionic Owls Metaverse
+
+                            is driven by a token system $BOWLS. $BOWLS serves as the native in-Game currency used for in-
+                            Game economic interactions, and is deployed as a governance token for influencing decision making
+
+                            regarding the Bionic Owls Metaverse by the decentralized autonomous organization (DAO) where the
+                            $BOWLS token is staked (the “<strong>Bionic Owls DAO</strong>”). The Bionic Owls DAO governs certain aspects of
+                            the Bionic Owls Metaverse; we do not control the Bionic Owls DAO and are not responsible for its
+                            decisions or actions. You acknowledge and agree that we cannot be held liable or responsible in any
+                            way for any damages or losses incurred by any person in connection with any acts or omissions of the
+                            Bionic Owls DAO. Further details on the Bionic Owls Metaverse, including the uses of $BOWLS, are
+                            set forth in the Bionic Owls whitepaper, as we may update from time to time.
+                        </p>
+                        <p class="nested">
+                            1.2 <strong>DAOs</strong>. The Bionic Owls Metaverse utilizes a guild system that allows you to create factions and
+                            collectives that operate in a decentralized, autonomous way (“Decentralized Autonomous
+                            Organisations”). The Services may provide you and other players with certain tools that enable the
+                            implementation and management of such Decentralized Autonomous Organisations. We reserve the
+                            right to revoke access from any Decentralized Autonomous Organisation, or member player thereof, to
+                            such tools in the event that such Decentralized Autonomous Organisation or player violates these Terms
+                            or for any other reason we determine in our good faith business judgment.
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__inner">
+                <div class="footer__bg">
+                    <img src="img/style/footer_bg.jpg" alt="">
+                </div>
+                <div class="footer__wrap">
+                    <div class="footer__top">
+                        <div class="footer__logo"> <a href="/" class="logo">
+
+                            logo
+
+                            <img src="img/style/logo.png" alt="">
+
+                        </a>
+                        </div>
+                        <div class="footer__nav">
+                        </div>
+                        <div class="footer__pdf">
+                            <a href="#" target="_blank"><span>Whitepaper PDF</span></a><br><br>
+                            <span>Coming soon</span>
+                        </div>
+                    </div>
+                    <div class="footer__bottom">
+                        <div class="footer__copy">© 2022, Copyright Bionic Owls. All Rights Reserved</div>
+                        <div class="footer__links">
+                            <div class="footer__link"> <a href="privacy.html">Privacy Policy</a>
+                            </div>
+                            <div class="footer__link"> <a href="terms-and-conditions.html">Terms & Conditions</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</div><script src="module/jquery/jquery.min.js"></script>
+<script src="module/owl-carousel/owl.carousel.min.js"></script>
+<script src="module/formstyler/jquery.formstyler.min.js"></script>
+<script src="module/aos/aos.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r125/three.min.js" async></script>
+<script src="https://unpkg.com/three@0.125.2/examples/js/loaders/GLTFLoader.js" async></script>
+<script src="https://unpkg.com/three@0.125.2/examples/js/controls/OrbitControls.js" async></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/dat-gui/0.7.7/dat.gui.min.js" async></script>
+<script src="./js/bundle.min.js" async></script>
+<!-- <script src="./js/app.js"></script> --></body>
+
+</html>
