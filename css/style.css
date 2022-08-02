@@ -76,6 +76,7 @@ a:hover {
     white-space: nowrap;
     position: relative;
     text-align: center;
+    font-display: swap;
 }
 .title-2 span {
     -webkit-text-stroke: 0.08rem #2c2a25;
@@ -355,6 +356,7 @@ body.safari .nav__wrap {
     background: url(../img/style/button_bg.svg) no-repeat 50% / contain;
     transition: transform 0.4s;
     will-change: transform;
+    font-display: swap;
 }
 .button_medium {
     width: 19.5rem;
@@ -1166,6 +1168,7 @@ textarea.input-text__field {
     white-space: nowrap;
     text-shadow: 0 4px 8px #111;
     position: relative;
+    font-display: swap;
 }
 .main__title h1 span {
     -webkit-text-stroke: 0.08rem #2c2a25;
