@@ -1,6 +1,4 @@
 User-agent: *
 Allow: /
-Disallow: /terms-and-conditions.html
-Disallow: /privacy.html
 
 Sitemap: https://bionicowls.io/sitemap.xml
